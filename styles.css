@@ -1,6 +1,35 @@
 body {
     background-image: url(Logos/T%C3%8BSH_white.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center 15%;
+    background-position: center;
+    background-attachment: fixed;
     background-color: black;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+#proPic {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-xs {
+    min-height: inherit;
+    height: 20px;
+}
+
+.img-thumbnail {
+    width: 400px;
+}
+.img-thumbnail:hover {
+    filter: contrast(160%);
+}
+
+#about {
+    margin-left: 20px;
+    margin-right: 20px;
 }
