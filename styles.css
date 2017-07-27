@@ -1,3 +1,4 @@
+/* Body */
 body {
     background-image: url(Logos/T%C3%8BSH_white.png);
     background-size: contain;
@@ -11,6 +12,7 @@ h1 {
     padding-top: 10%;
 }
 
+/* Profile picture */
 #proPic {
     margin-top: 50px;
     max-width: 100%;
@@ -22,13 +24,17 @@ h1 {
     height: 20px;
 }
 
+/* Image */
 .img-thumbnail {
     width: 300px;
 }
+
+/* Image hover */
 .img-thumbnail:hover {
     filter: contrast(160%);
 }
 
+/* About */
 #about {
     margin-left: 20px;
     margin-right: 20px;
