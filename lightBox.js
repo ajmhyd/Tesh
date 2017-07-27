@@ -1,6 +1,9 @@
+alert("Hello! I am an alert box1!!");
 /*global $ */
 $(document).ready(function () {
+    
     "use strict";
+    alert("Hello! I am an alert box2!!");
     function openModal() {
         document.getElementById('myModal').style.display = "block";
     }
