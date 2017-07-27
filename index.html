@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="lightBox.css">
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body >
     <!-- Navbar -->
@@ -64,30 +67,45 @@ Nowhere is this adulation more evident than in the front few rows of any Joseph 
     <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
-
+    <!-- Modal Image -->
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">1 / 7</div>
       <img src="Photos/EDX1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+      <div class="numbertext">2 / 7</div>
       <img src="Photos/EDX2.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
+      <div class="numbertext">3 / 7</div>
       <img src="Photos/EDX3.jpg" style="width:100%">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
+      <div class="numbertext">4 / 7</div>
       <img src="Photos/EDX4.jpg" style="width:100%">
     </div>
-    
+      
+      <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src="Photos/EDX5.jpg" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src="Photos/EDX6.jpg" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="Photos/EDX7.jpg" style="width:100%">
+    </div>
+    <!-- Prev + Next -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
+    <!-- Modal Thumbnail-->
       <div class="column">
       <img class="demo cursor" src="Photos/EDX1.jpg" style="width:100%" onclick="currentSlide(1)">
     </div>
@@ -100,9 +118,17 @@ Nowhere is this adulation more evident than in the front few rows of any Joseph 
     <div class="column">
       <img class="demo cursor" src="Photos/EDX4.jpg" style="width:100%" onclick="currentSlide(4)">
     </div>
+      <div class="column">
+      <img class="demo cursor" src="Photos/EDX5.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="Photos/EDX6.jpg" style="width:100%" onclick="currentSlide(6)">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="Photos/EDX7.jpg" style="width:100%" onclick="currentSlide(7)">
+    </div>
   </div>
-</div>
-
+</div>i
     <!-- SoundCloud -->
     <div class="container-fluid text-center">
         <h1>SoundCloud</h1>
@@ -122,8 +148,5 @@ Nowhere is this adulation more evident than in the front few rows of any Joseph 
     </footer>
     <!-- Javascript file -->
     <script src="lightBox.js"></script>
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
