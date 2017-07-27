@@ -23,7 +23,7 @@ h1 {
 }
 
 .img-thumbnail {
-    width: 400px;
+    width: 300px;
 }
 .img-thumbnail:hover {
     filter: contrast(160%);

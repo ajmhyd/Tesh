@@ -8,6 +8,7 @@
     <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="lightBox.css">
 </head>
 <body >
     <!-- Navbar -->
@@ -42,7 +43,7 @@
     <!-- About -->
     <div class="container-fluid text-center" id="about">
         <h1>About</h1>
-            <p>Tësh, a native of the Chicago suburbs, loves to play music and celebrate life. His fascination for rare grooves and select cuts began in highschool. Once in college, he quickly developed a passion to bringing the underground sounds of Chicago to his new home directly in the middle of the US. Good ole Columbia Missouri.Now recognized as one of the principal profiles in techno, Joseph Capriati has established a reputation as a universally popular and in-demand talent. A naturally charismatic DJ with a back catalogue of standout productions, Joseph is an instinctive performer with a genuine enthusiasm for entertaining. Widely regarded as one-to-watch since making his production debut in 2007, Capriati's rise to prominence has been relentless. Established as a key artist for Adam Beyer's Drumcode label; resident at Marco Carola's 'Music On' events in Ibiza; a priority artist for global festival brands Awakenings, Time Warp, Monegros, Tomorrowland and Kazantip; and a firm favorite with club crowds across Europe and North &amp; South America; Joseph Capriati is a unique artist within the electronic scene, whose powerful performances and musical magnetism spontaneously attract affection from fans and peers alike, marking him out as a leading light amongst the next generation of international techno headliners.
+            <p>Tësh, a native of the Chicago suburbs, loves to play music and celebrate life. His fascination for rare grooves and select jscuts began in highschool. Once in college, he quickly developed a passion bringing the underground sounds of Chicago to his new home in the middle of the US; Columbia, Missouri. While in Columbia he learned how to properly work a crowd after completing multiple weekly residencies in the cities most popular clubs.recognized as one of the principal profiles in techno, Joseph Capriati has established a reputation as a universally popular and in-demand talent. A naturally charismatic DJ with a back catalogue of standout productions, Joseph is an instinctive performer with a genuine enthusiasm for entertaining. Widely regarded as one-to-watch since making his production debut in 2007, Capriati's rise to prominence has been relentless. Established as a key artist for Adam Beyer's Drumcode label; resident at Marco Carola's 'Music On' events in Ibiza; a priority artist for global festival brands Awakenings, Time Warp, Monegros, Tomorrowland and Kazantip; and a firm favorite with club crowds across Europe and North &amp; South America; Joseph Capriati is a unique artist within the electronic scene, whose powerful performances and musical magnetism spontaneously attract affection from fans and peers alike, marking him out as a leading light amongst the next generation of international techno headliners.
     <br>
 2013 was a landmark year for Joseph Capriati. Not only did he release his sophomore 'Self Portrait' album on Drumcode, but the inspirational Italian lit up marquee events across the globe including Berghain Berlin, Space Miami, Pacha New York, Output New York, Stereo Montreal, Cocorico Riccione and Cavo Paradiso Mykonos, plus a festival-hopping summer schedule and a truly magical Ibiza season which saw Capriati complete a euphoric eight-date residency for Music On at Amnesia and make two unforgettable appearances for Circo Loco at DC10. All this comes on top of a series of impressive firsts, including closing the main room of the internationally respected Time Warp Festival in Mannheim; an all-conquering coast-to-coast tour of USA; a marathon 12-hour set in front of a sold-out 7000 capacity Metropolis club in his home town of Naples, and invitations to play back-to back sets with Marco Carola, Danny Tenaglia, Adam Beyer, Dubfire and Dave Clarke. It therefore comes as little surprise to even the most casual observers of Techno that Joseph Capriatiâs name now appears as top billing at the most high profile events worldwide. Acknowledged everywhere he goes as an ambassador for the new techno cohort, Joseph is adored by his rapidly growing army of dedicated fans for his honest and humble approach to his art.  
         <br>
@@ -51,14 +52,57 @@ Nowhere is this adulation more evident than in the front few rows of any Joseph 
     <!-- Photos -->
     <div class="container-fluid text-center">
         <h1>Photos</h1>
-        <img class="img-thumbnail img-responsive" src="Photos/EDX1.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX2.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX3.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX4.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX5.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX6.jpg">
-        <img class="img-thumbnail img-responsive" src="Photos/EDX7.jpg">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX1.jpg" onclick="openModal();currentSlide(1)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX2.jpg" onclick="openModal();currentSlide(2)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX3.jpg" onclick="openModal();currentSlide(3)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX4.jpg" onclick="openModal();currentSlide(4)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX5.jpg" onclick="openModal();currentSlide(5)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX6.jpg" onclick="openModal();currentSlide(6)">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Photos/EDX7.jpg" onclick="openModal();currentSlide(7)">
     </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Photos/EDX1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Photos/EDX2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Photos/EDX3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Photos/EDX4.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      <div class="column">
+      <img class="demo cursor" src="Photos/EDX1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Photos/EDX2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Photos/EDX3.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Photos/EDX4.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+  </div>
+</div>
+
     <!-- SoundCloud -->
     <div class="container-fluid text-center">
         <h1>SoundCloud</h1>
@@ -76,6 +120,8 @@ Nowhere is this adulation more evident than in the front few rows of any Joseph 
         <p><span class="glyphicon glyphicon-copyright-mark"></span>Tësh</p>
         </nav>
     </footer>
+    <!-- Javascript file -->
+    <script src="lightBox.js"></script>
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
