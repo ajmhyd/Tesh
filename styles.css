@@ -18,6 +18,10 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+/* Navbar hover */
+.navbar-nav *:hover {
+    background-color: grey;
+}
 
 .navbar-xs {
     min-height: inherit;
@@ -38,4 +42,8 @@ h1 {
 #about {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+#social {
+    margin-bottom: 20px;
 }
