@@ -1,2 +1,2 @@
-# Tesh
-Tësh
+﻿# Tesh
+A website for Tësh.
