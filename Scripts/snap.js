@@ -11,10 +11,7 @@ img.onclick = function () {
     modalImg.src = this.src;
 };
 
-// Get the element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// Close the modal
-span.onclick = function () { 
-    modal.style.display = "none";
-};
+/* Close Modal*/
+function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+}
