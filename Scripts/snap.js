@@ -15,3 +15,12 @@ img.onclick = function () {
 function closeModal() {
     document.getElementById('myModal').style.display = "none";
 }
+
+/* Esc close modal */
+$('body').on('keyup', function (e) {
+    switch (e.which) {
+    case 27:
+        $('.close').click();
+        break;
+    }
+});

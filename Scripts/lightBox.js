@@ -2,6 +2,7 @@
 /* Open Modal */
 function openModal() {
     document.getElementById('myModal').style.display = "block";
+    
 }
 /* Close modal */
 function closeModal() {
@@ -11,7 +12,7 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-
+/* Move forward a slide */
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
@@ -34,3 +35,22 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
 }
+
+/* Arrow keys functionality */
+$('body').on('keyup', function (e) {
+    switch (e.which) {
+        /* Left arrow key */
+    case 37:
+        $('.prev')[0].click();
+        break;
+        /* Right arrow key */
+    case 39:
+        $('.next')[0].click();
+        break;
+        /* Esc key */
+    case 27:
+        closeModal();
+        break;
+    }
+});
+
