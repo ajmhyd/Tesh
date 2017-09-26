@@ -47,15 +47,15 @@
   position: absolute;
   top: 50px;
   right: 25px;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #999;
+  color: white;
   text-decoration: none;
-  cursor: pointer;
+*cursor: pointer;
 }
 
 .mySlides {
