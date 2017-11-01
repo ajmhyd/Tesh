@@ -31,18 +31,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#" title="Return to Top">
         <img src="Images/Logos/T%C3%8BSHSmallBrand.png" alt="Brand" height="100%"></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li><a class="navi" href="#" data-target="about">About</a></li>
-          <li><a class="navi" href="#" data-target="soundCloud">SoundCloud</a></li>
-          <li><a class="navi" href="#" data-target="videos">Videos</a></li>
-          <li><a class="navi" href="#" data-target="photos">Photos</a></li>
-          <li><a class="navi" href="#" data-target="contact">Contact</a></li>
-          <li><a class="navi" href="#" data-target="social">Social</a></li>
+          <li><a class="navi" href="#" data-target="about" title="Go to About">About</a></li>
+          <li><a class="navi" href="#" data-target="soundCloud" title="Listen to Music">SoundCloud</a></li>
+          <li><a class="navi" href="#" data-target="videos" title="Watch a Video">Videos</a></li>
+          <li><a class="navi" href="#" data-target="photos" title="View Photos">Photos</a></li>
+          <li><a class="navi" href="#" data-target="contact" title="Contact">Contact</a></li>
+          <li><a class="navi" href="#" data-target="social" title="Social Media">Social</a></li>
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -60,8 +60,8 @@
     <div class="container-fluid text-center" id="soundCloud">
         <h1>SoundCloud</h1>
         <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Famatseshe&color=orange_white&size=64" style="width: 64px; height: 64px;"></iframe>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/349565195&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338907289&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301950965&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150320177&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     </div>
     <!-- Videos -->
@@ -216,17 +216,23 @@
     <!-- Contact -->
     <div class="container-fluid text-center" id="contact">
         <h1>Contact</h1>
-            <h3>Bookings/Demos: WanyamaRecords@gmail.com</h3>
-            <h3>Contact:        Amatseshe@gmail.com</h3>
-            <h3>Mobile:         (847)477-9277</h3>
+            <h3>Bookings/Demos: 
+                <a href="mailto:WanyamaRecords@gmail.com" style="color: azure" title="Emaile">WanyamaRecords@gmail.com</a>
+            </h3>
+            <h3>Contact:        
+                <a href="mailto:Amatseshe@gmail.com" style="color: azure" title="Email">Amatseshe@gmail.com</a>
+            </h3>
+            <h3>Mobile:
+                <a href="tel:1-847-477-9277" style="color: azure" title="Call or Text"> (847)477-9277</a>
+            </h3>
     </div>
     <!-- Social -->
     <div class="container-fluid text-center" id="social">
-        <a href="https://www.facebook.com/JediTesh" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://twitter.com/JediTesh" class="fa fa-twitter" target="_blank"></a>
-        <img src="Images/Logos/snapcode.png" class="fas" id="myImg">
-        <a href="https://soundcloud.com/amatseshe" class="fa fa-soundcloud" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/amatseshe/" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://www.facebook.com/JediTesh" class="fa fa-facebook" target="_blank" title="Facebook"></a>
+        <a href="https://twitter.com/JediTesh" class="fa fa-twitter" target="_blank" title="Twitter"></a>
+        <img src="Images/Logos/snapcode.png" class="fas" id="myImg" title="Snapcode">
+        <a href="https://soundcloud.com/amatseshe" class="fa fa-soundcloud" target="_blank" title="SoundCloud"></a>
+        <a href="https://www.linkedin.com/in/amatseshe/" class="fa fa-linkedin" target="_blank" title="Linkedin"></a>
     </div>
     <!-- Snap Modal -->
     <div id="sModal" class="modal">
@@ -245,7 +251,7 @@
         <p><span class="glyphicon glyphicon-copyright-mark"></span>Tësh</p>
         </nav>
     </footer>
-    <!-- Javascript file -->
+    <!-- Javascript files -->
     <script src="Scripts/snap.js"></script>
     <script src="Scripts/lightBox.js"></script> 
     <script src="Scripts/navbar.js"></script>
