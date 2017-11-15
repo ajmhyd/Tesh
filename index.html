@@ -13,9 +13,6 @@
         <link rel="stylesheet" href="Stylesheets/styles.css">
         <link rel="stylesheet" href="Stylesheets/lightBox.css">
         <link rel="stylesheet" href="Stylesheets/icons.css">
-        <!-- Jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- Favicon -->
         <link href="Favicon/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
@@ -33,7 +30,7 @@
       </button>
       <a class="navbar-brand" href="#" title="Return to Top">
         <img src="Images/Logos/T%C3%8BSHSmallBrand.png" alt="Brand" height="100%"></a>
-    </div>
+    </div> <!-- /.navbar-header -->
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -46,16 +43,16 @@
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>
+</nav><!-- /.navbar -->
     <!-- Main Picture -->
     <div class="container-fluid text-center">
-        <img src="Images/Photos/EDX1.jpg" id="proPic">
-    </div>
+        <img src="Images/Photos/EDX1.jpg" id="proPic" alt="Main Pic">
+    </div><!-- End Main Picture -->
     <!-- About -->
     <div class="container-fluid text-center" id="about">
         <h1>About</h1>
             <h3>Tësh does not compromise his integrity for anyone or anything. His dream is to deliver only the purest, most ecstatic, and sensual records to as many people as possible. Combining technical talents along with a unique selection of infectious cuts; results in a synthesized experience of intimate dancefloor grooves that makes your body want to move.</h3>
-        </div>
+        </div><!-- End About -->
     <!-- SoundCloud -->
     <div class="container-fluid text-center" id="soundCloud">
         <h1>SoundCloud</h1>
@@ -63,156 +60,156 @@
         <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/349565195&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338907289&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150320177&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-    </div>
+    </div><!-- End SoundCloud -->
     <!-- Videos -->
     <div class="container-fluid text-center" id="videos">
     <h1>Videos</h1>
     <div class="embed-responsive embed-responsive-16by9">
-        <video controls>
-            <source src="Videos/Deep_Down_Under_B2B.mp4" type="video/mp4" srcset="Images/Logos/TËSH.jpg">
+        <video controls poster="Images/Logos/TËSH.jpg">
+            <source src="Videos/Deep_Down_Under_B2B.mp4" type="video/mp4">
         </video>
     </div>
-    </div>
+    </div><!-- End Videos -->
     <!-- Photos -->
     <div class="container-fluid text-center" id="photos">
         <h1>Photos</h1>
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DDU.jpg" onclick="openModal();currentSlide(1)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX2.jpg" onclick="openModal();currentSlide(2)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DDU2.jpg" onclick="openModal();currentSlide(3)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX4.jpg" onclick="openModal();currentSlide(4)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGSDad.jpg" onclick="openModal();currentSlide(5)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX6.jpg" onclick="openModal();currentSlide(6)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DarkHorse.jpg" onclick="openModal();currentSlide(7)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX5.jpg" onclick="openModal();currentSlide(8)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS.jpg" onclick="openModal();currentSlide(9)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX1.jpg" onclick="openModal();currentSlide(10)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX3.jpg" onclick="openModal();currentSlide(11)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS2.jpg" onclick="openModal();currentSlide(12)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/Devo.jpg" onclick="openModal();currentSlide(13)">
-        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS3.jpg" onclick="openModal();currentSlide(14)">
-    </div>
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DDU.jpg" onclick="openModal();currentSlide(1)" alt="Deep Down Under">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX2.jpg" onclick="openModal();currentSlide(2)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DDU2.jpg" onclick="openModal();currentSlide(3)" alt="Deep Down Under">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX4.jpg" onclick="openModal();currentSlide(4)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGSDad.jpg" onclick="openModal();currentSlide(5)" alt="SGS">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX6.jpg" onclick="openModal();currentSlide(6)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/DarkHorse.jpg" onclick="openModal();currentSlide(7)" alt="DarkHorse">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX5.jpg" onclick="openModal();currentSlide(8)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS.jpg" onclick="openModal();currentSlide(9)" alt="SGS">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX1.jpg" onclick="openModal();currentSlide(10)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/EDX3.jpg" onclick="openModal();currentSlide(11)" alt="EDX">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS2.jpg" onclick="openModal();currentSlide(12)" alt="SGS">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/Devo.jpg" onclick="openModal();currentSlide(13)" alt="Devo">
+        <img class="img-thumbnail img-responsive hover-shadow cursor" src="Images/Photos/SGS3.jpg" onclick="openModal();currentSlide(14)" alt="SGS">
+    </div><!-- End Photos -->
     <!-- Photos Modal -->
     <div class="modal" id="myModal">
-        <span class="close cursor" class="cancel" onclick="closeModal()">&times;</span>
+        <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="modal-content">
                 <!-- Modal Image -->
                 <div class="mySlides">
                     <div class="numbertext">1 / 14</div>
-                    <img src="Images/Photos/DDU.jpg" style="width:100%">
+                    <img src="Images/Photos/DDU.jpg" style="width:100%" alt="DDU">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 14</div>
-                    <img src="Images/Photos/EDX2.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX2.jpg" style="width:100%" alt="EDX">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 14</div>
-                    <img src="Images/Photos/DDU2.jpg" style="width:100%">
+                    <img src="Images/Photos/DDU2.jpg" style="width:100%" alt="DDU">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 14</div>
-                    <img src="Images/Photos/EDX4.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX4.jpg" style="width:100%" alt="EDX">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">5 / 14</div>
-                    <img src="Images/Photos/SGSDad.jpg" style="width:100%">
+                    <img src="Images/Photos/SGSDad.jpg" style="width:100%" alt="SGS">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">6 / 14</div>
-                    <img src="Images/Photos/EDX6.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX6.jpg" style="width:100%" alt="EDX">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">7 / 14</div>
-                    <img src="Images/Photos/DarkHorse.jpg" style="width:100%">
+                    <img src="Images/Photos/DarkHorse.jpg" style="width:100%" alt="DarkHorse">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">8 / 14</div>
-                    <img src="Images/Photos/EDX5.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX5.jpg" style="width:100%" alt="EDX">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">9 / 14</div>
-                    <img src="Images/Photos/SGS.jpg" style="width:100%">
+                    <img src="Images/Photos/SGS.jpg" style="width:100%" alt="SGS">
                 </div>
                 
                 <div class="mySlides">
                     <div class="numbertext">10 / 14</div>
-                    <img src="Images/Photos/EDX1.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX1.jpg" style="width:100%" alt="EDX">
                 </div>
                 
                 <div class="mySlides">
                     <div class="numbertext">11 / 14</div>
-                    <img src="Images/Photos/EDX3.jpg" style="width:100%">
+                    <img src="Images/Photos/EDX3.jpg" style="width:100%" alt="EDX">
                 </div>
                 
                 <div class="mySlides">
                     <div class="numbertext">12 / 14</div>
-                    <img src="Images/Photos/SGS2.jpg" style="width:100%">
+                    <img src="Images/Photos/SGS2.jpg" style="width:100%" alt="SGS">
                 </div>
                 
                 <div class="mySlides">
                     <div class="numbertext">13 / 14</div>
-                    <img src="Images/Photos/Devo.jpg" style="width:100%">
+                    <img src="Images/Photos/Devo.jpg" style="width:100%" alt="Devo">
                 </div>
                 
                 <div class="mySlides">
                     <div class="numbertext">14 / 14</div>
-                    <img src="Images/Photos/SGS3.jpg" style="width:100%">
+                    <img src="Images/Photos/SGS3.jpg" style="width:100%" alt="SGS">
                 </div>
                 <!-- Prev + Next -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 <!-- Modal Thumbnail-->
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/DDU.jpg" style="width:100%" onclick="currentSlide(1)">
+                  <img class="demo cursor" src="Images/Photos/DDU.jpg" style="width:100%" onclick="currentSlide(1)" alt="DDU">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX2.jpg" style="width:100%" onclick="currentSlide(2)">
+                  <img class="demo cursor" src="Images/Photos/EDX2.jpg" style="width:100%" onclick="currentSlide(2)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/DDU2.jpg" style="width:100%" onclick="currentSlide(3)">
+                  <img class="demo cursor" src="Images/Photos/DDU2.jpg" style="width:100%" onclick="currentSlide(3)" alt="DDU">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX4.jpg" style="width:100%" onclick="currentSlide(4)">
+                  <img class="demo cursor" src="Images/Photos/EDX4.jpg" style="width:100%" onclick="currentSlide(4)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/SGSDad.jpg" style="width:100%" onclick="currentSlide(5)">
+                  <img class="demo cursor" src="Images/Photos/SGSDad.jpg" style="width:100%" onclick="currentSlide(5)" alt="SGS">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX6.jpg" style="width:100%" onclick="currentSlide(6)">
+                  <img class="demo cursor" src="Images/Photos/EDX6.jpg" style="width:100%" onclick="currentSlide(6)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/DarkHorse.jpg" style="width:100%" onclick="currentSlide(7)">
+                  <img class="demo cursor" src="Images/Photos/DarkHorse.jpg" style="width:100%" onclick="currentSlide(7)" alt="DarkHorse">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX5.jpg" style="width:100%" onclick="currentSlide(8)">
+                  <img class="demo cursor" src="Images/Photos/EDX5.jpg" style="width:100%" onclick="currentSlide(8)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/SGS.jpg" style="width:100%" onclick="currentSlide(9)">
+                  <img class="demo cursor" src="Images/Photos/SGS.jpg" style="width:100%" onclick="currentSlide(9)" alt="SGS">
                 </div>    
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX1.jpg" style="width:100%" onclick="currentSlide(10)">
+                  <img class="demo cursor" src="Images/Photos/EDX1.jpg" style="width:100%" onclick="currentSlide(10)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/EDX3.jpg" style="width:100%" onclick="currentSlide(11)">
+                  <img class="demo cursor" src="Images/Photos/EDX3.jpg" style="width:100%" onclick="currentSlide(11)" alt="EDX">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/SGS2.jpg" style="width:100%" onclick="currentSlide(12)">
+                  <img class="demo cursor" src="Images/Photos/SGS2.jpg" style="width:100%" onclick="currentSlide(12)" alt="SGS">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/Devo.jpg" style="width:100%" onclick="currentSlide(13)">
+                  <img class="demo cursor" src="Images/Photos/Devo.jpg" style="width:100%" onclick="currentSlide(13)" alt="Devo">
                 </div>
                 <div class="column">
-                  <img class="demo cursor" src="Images/Photos/SGS3.jpg" style="width:100%" onclick="currentSlide(14)">
+                  <img class="demo cursor" src="Images/Photos/SGS3.jpg" style="width:100%" onclick="currentSlide(14)" alt="SGS">
                 </div>
               </div>
-    </div>
+    </div><!-- End Photos Modal -->
     <!-- Contact -->
     <div class="container-fluid text-center" id="contact">
         <h1>Contact</h1>
@@ -225,32 +222,35 @@
             <h3>Mobile:
                 <a href="tel:1-847-477-9277" style="color: azure" title="Call or Text"> (847)477-9277</a>
             </h3>
-    </div>
+    </div> <!-- End Contact -->
     <!-- Social -->
     <div class="container-fluid text-center" id="social">
         <a href="https://www.facebook.com/JediTesh" class="fa fa-facebook" target="_blank" title="Facebook"></a>
         <a href="https://twitter.com/JediTesh" class="fa fa-twitter" target="_blank" title="Twitter"></a>
-        <img src="Images/Logos/snapcode.png" class="fas" id="myImg" title="Snapcode">
+        <img src="Images/Logos/snapcode.png" class="fas" id="myImg" title="Snapcode" alt="SnapCode">
         <a href="https://soundcloud.com/amatseshe" class="fa fa-soundcloud" target="_blank" title="SoundCloud"></a>
         <a href="https://www.linkedin.com/in/amatseshe/" class="fa fa-linkedin" target="_blank" title="Linkedin"></a>
-    </div>
+    </div> <!-- End Social -->
     <!-- Snap Modal -->
     <div id="sModal" class="modal">
       <!-- Close Button -->
       <span class="close" onclick="document.getElementById('sModal').style.display='none'">&times;</span>
       <!-- Content -->
-      <img class="modal-content" id="snap">
-    </div>
+      <img class="modal-content" id="snap" alt="Modal">
+    </div><!-- End Snap Modal -->
     <!-- Logo Picture -->
     <div class="container-fluid text-center">
-    <img src="Images/Logos/T%C3%8BSH_white.png" id="logoPic">
-    </div>
+    <img src="Images/Logos/T%C3%8BSH_white.png" id="logoPic" alt="Logo Pic">
+    </div><!-- End Logo Picture -->
         <!-- Footer -->
     <footer class="container-fluid text-center fixed-to-bottom">
         <nav class="navbar navbar-xs navbar-inverted navbar-fixed-bottom">
         <p><span class="glyphicon glyphicon-copyright-mark"></span>Tësh</p>
         </nav>
     </footer>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Javascript files -->
     <script src="Scripts/snap.js"></script>
     <script src="Scripts/lightBox.js"></script> 
