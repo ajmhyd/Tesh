@@ -1,2 +1,4 @@
 ﻿# Tesh
-A website for Tësh.
+A simple website for marketing Tësh.
+
+View website [here](ajmhyd.github.io/Tesh)
